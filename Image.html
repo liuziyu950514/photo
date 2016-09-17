@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>预加载</title>
+</head>
+<body>
+<script>
+
+    var oImg = new Image();
+    oImg.src = 'img/1.jpg';
+    oImg.onload = function(){
+        alert(oImg.width);
+    };
+
+
+//    var oDiv = document.createElement('div');
+//    oDiv.style.width = '200px';
+//    oDiv.style.height = '200px';
+//    oDiv.style.background = 'url(img/1.jpg)';
+//    document.body.appendChild(oDiv);
+
+</script>
+</body>
+</html>
